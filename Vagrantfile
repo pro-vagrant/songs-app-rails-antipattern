@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network :forwarded_port, guest: 3000, host: 3000, host_ip: "127.0.0.1"
 
-  config.vm.provision "shell", path: "script.sh"
+  config.vm.provision "shell", path: "install-puppet-modules.sh"
 
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "puppet/manifests"
