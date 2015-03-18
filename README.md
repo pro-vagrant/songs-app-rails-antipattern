@@ -15,6 +15,8 @@ Boot VM:
 
     $ vagrant up
 
+**This may take 60 minutes or more...**
+
 Start your web browser and visit:
 
     http://127.0.0.1:3000
