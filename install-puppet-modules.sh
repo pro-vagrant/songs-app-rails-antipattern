@@ -4,7 +4,7 @@ echo "Install Puppet modules..."
 
 sudo puppet module install puppetlabs-stdlib --version 4.5.1 --force
 sudo puppet module install gajdaw-diverse_functions --version 0.1.1 --force
-sudo puppet module install gajdaw-ruby --version 0.5.2 --force
+sudo puppet module install gajdaw-ruby --version 0.5.3 --force
 sudo puppet module install gajdaw-rails --version 0.1.16 --force
 sudo puppet module install gajdaw-environment --version 0.1.4 --force
 sudo puppet module install gajdaw-ubuntu --version 0.1.13 --force
